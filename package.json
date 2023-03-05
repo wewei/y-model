@@ -43,11 +43,15 @@
       "pre-commit": "npm run lint && tsc --noEmit"
     }
   },
-  "dependencies": {},
+  "dependencies": {
+    "uuid": "^9.0.0",
+    "yjs": "^13.5.48"
+  },
   "devDependencies": {
     "@reallyland/tsconfig": "^2.0.0",
     "@reallyland/tslint-config": "^1.1.1",
     "@types/node": "^13.9.8",
+    "@types/uuid": "^9.0.1",
     "husky": "^4.2.3",
     "shx": "^0.3.2",
     "tslint": "^6.1.0",
